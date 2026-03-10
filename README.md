@@ -58,6 +58,7 @@ The Streamlit interface enables:
 
 ![Streamlit Demo](images/streamlit_demo.png)
 
+---
 ## Modeling Approach
 
 Multiple supervised learning models were trained and evaluated:
@@ -160,6 +161,7 @@ Potential extensions include:
 
 Healthcare Machine Learning Portfolio Project  
 Focused on predictive analytics, clinical AI modeling, and deployment-ready healthcare ML systems.
+
 
 
 
