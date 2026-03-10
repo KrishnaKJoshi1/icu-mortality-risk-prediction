@@ -45,7 +45,7 @@ https://www.kaggle.com/datasets/drscarlat/mimic3c
 
 Explore the deployed interactive application:
 
-[Launch Live App](https://yourapp.streamlit.app)
+https://icu-mortality-risk-prediction-ldqgvlkdtpd9btbdkxxak3.streamlit.app/
 
 The Streamlit interface enables:
 
@@ -160,3 +160,4 @@ Potential extensions include:
 
 Healthcare Machine Learning Portfolio Project  
 Focused on predictive analytics, clinical AI modeling, and deployment-ready healthcare ML systems.
+
