@@ -40,8 +40,6 @@ To reproduce the notebook locally:
 Dataset Source:  
 https://www.kaggle.com/datasets/drscarlat/mimic3c
 
-
-)
 ---
 
 ## Live Application Demo
@@ -162,5 +160,6 @@ Potential extensions include:
 
 Healthcare Machine Learning Portfolio Project  
 Focused on predictive analytics, clinical AI modeling, and deployment-ready healthcare ML systems.
+
 
 
