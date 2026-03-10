@@ -41,10 +41,14 @@ Dataset Source:
 https://www.kaggle.com/datasets/drscarlat/mimic3c
 
 
+)
+---
+
 ## Live Application Demo
 
 Explore the deployed interactive application:
 
+🔗 **Launch the App:**  
 https://icu-mortality-risk-prediction-ldqgvlkdtpd9btbdkxxak3.streamlit.app/
 
 The Streamlit interface enables:
@@ -55,8 +59,6 @@ The Streamlit interface enables:
 - Color-coded triage classification
 
 ![Streamlit Demo](images/streamlit_demo.png)
-
----
 
 ## Modeling Approach
 
@@ -160,4 +162,5 @@ Potential extensions include:
 
 Healthcare Machine Learning Portfolio Project  
 Focused on predictive analytics, clinical AI modeling, and deployment-ready healthcare ML systems.
+
 
