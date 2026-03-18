@@ -27,7 +27,7 @@ The system is designed with a patient-safety-first evaluation strategy.
 ## Project Workflow
 
 <p align="center">
-  <img src="images/icu_workflow_simple.png" width="900">
+  <img src="images/icu_workflow_simple.png" width="700">
 </p>
 
 ----
