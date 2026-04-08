@@ -57,7 +57,7 @@ https://www.kaggle.com/datasets/drscarlat/mimic3c
 Explore the deployed interactive application:
 
 🔗 **Launch the App:**  
-https://icu-mortality-risk-prediction-ldqgvlkdtpd9btbdkxxak3.streamlit.app/
+https://icu-mortality-risk-prediction-yf8edp6nshnkynwdpabtex.streamlit.app/
 
 The Streamlit interface enables:
 
