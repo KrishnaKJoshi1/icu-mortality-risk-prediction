@@ -213,7 +213,10 @@ icu-mortality-risk-prediction/
 │   ├── precision_recall_curve.png
 │   ├── confusion_matrix.png
 │   ├── feature_importance.png
-│   └── mortality_distribution.png
+│   ├── mortality_distribution.png
+│   ├── bias_age.png
+│   ├── bias_gender.png
+│   └── bias_insurance.png
 │
 ├── notebooks/
 │   ├── icu_mortality_risk_prediction.ipynb   ← main end-to-end notebook
