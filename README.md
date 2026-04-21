@@ -164,15 +164,32 @@ At threshold 0.30, the model flags the majority of high-risk patients correctly,
 
 The model was audited across patient subgroups to check for performance disparities — a critical step for any clinical AI system.
 
-Groups evaluated:
+In healthcare, a model that performs well on average but poorly for specific groups can lead to unequal treatment and missed high-risk patients. Two metrics were used for every group:
 
-- **Age:** Under 40 / 40–60 / 60–75 / Over 75
-- **Gender:** M / F
-- **Insurance type:** Medicare / Medicaid / Private / Government / Self-pay
+- **Recall** — out of all patients who actually died, how many did the model correctly flag?
+- **False Negative Rate** — out of all patients who actually died, how many did the model miss?
 
 Any group with Recall below 0.70 was flagged as a concern requiring investigation before clinical use.
 
-Full results in `notebooks/bias_analysis.ipynb`.
+### Recall by Age Group
+
+Patients divided into 4 age bands. Older patients carry higher baseline mortality risk.
+
+![Bias Age](images/bias_age.png)
+
+### Recall by Gender
+
+Model performance compared between male and female patients. A gap greater than 0.10 is considered a fairness concern.
+
+![Bias Gender](images/bias_gender.png)
+
+### Recall by Insurance Type
+
+Insurance type is a proxy for socioeconomic status. If the model performs worse for Medicaid or uninsured patients, that is a serious health equity concern.
+
+![Bias Insurance](images/bias_insurance.png)
+
+Full analysis and results table in `notebooks/bias_analysis.ipynb`.
 
 ---
 
