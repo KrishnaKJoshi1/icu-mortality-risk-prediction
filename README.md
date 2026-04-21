@@ -154,7 +154,7 @@ At threshold 0.30, the model flags the majority of high-risk patients correctly,
 | 14 | `NumRx` | Medication count — polypharmacy as severity proxy |
 | 15 | `AdmitProcedure: Mech vent <96h` | Short-term mechanical ventilation — acute respiratory intervention |
 
-*Full chart available in `notebooks/04_model_evaluation.ipynb`.*
+*Full chart available in `notebooks/icu_mortality_risk_prediction.ipynb`.*
 
 ![Feature Importance](images/feature_importance.png)
 
@@ -172,7 +172,7 @@ Groups evaluated:
 
 Any group with Recall below 0.70 was flagged as a concern requiring investigation before clinical use.
 
-Full results in `notebooks/05_bias_analysis.ipynb`.
+Full results in `notebooks/bias_analysis.ipynb`.
 
 ---
 
@@ -199,11 +199,8 @@ icu-mortality-risk-prediction/
 │   └── mortality_distribution.png
 │
 ├── notebooks/
-│   ├── 01_data_loading_and_eda.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_model_training.ipynb
-│   ├── 04_model_evaluation.ipynb
-│   └── 05_bias_analysis.ipynb
+│   ├── icu_mortality_risk_prediction.ipynb   ← main end-to-end notebook
+│   └── bias_analysis.ipynb                   ← fairness analysis across patient groups
 │
 ├── README.md
 ├── requirements.txt
