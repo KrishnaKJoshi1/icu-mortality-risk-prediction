@@ -32,7 +32,7 @@ The answer: yes — with a recall-optimized XGBoost pipeline achieving **ROC-AUC
 
 Explore the deployed interactive application:
 
-🔗 [Launch Live App](https://icu-mortality-risk-prediction-ldqgvlkdtpd9btbdkxxak3.streamlit.app/)
+🔗https://icu-mortality-risk-prediction-tzhf4yahqvib9nnuypfu5d.streamlit.app/
 
 The Streamlit interface enables:
 
